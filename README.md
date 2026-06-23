@@ -11,6 +11,8 @@
 
 Sprache: **Python 3** (ist auf diesem Rechner installiert; das Test-Framework `unittest` ist eingebaut – du musst **nichts** installieren).
 
+> **Hinweis zur Sprache:** Welche Sprache die Schule in 323/450 nimmt, ist noch offen. Python ist hier startklar und ideal zum Foundation-Bauen – die **Konzepte** (reine Funktionen, map/filter/reduce, Äquivalenzklassen, Mocks, TDD) sind in **jeder** Sprache gleich. Falls es später Java oder C# wird, bauen wir die Übungen schnell um; dein gelerntes Wissen bleibt gültig.
+
 ---
 
 ## So funktioniert das hier (wichtig!)
@@ -19,6 +21,7 @@ Das ist ein **Tutor**-Setup, kein Lösungsheft:
 
 - Du **schreibst den Code selbst**. Ich gebe dir Aufgaben, Tests und Hinweise – aber **keine fertigen Lösungen**.
 - **Die Tests sagen dir, ob es stimmt.** Rot = noch nicht fertig, Grün (`OK`) = geschafft.
+- Pro Modul gibt es zusätzlich **`theorie.md`** mit Theorie-/Quizfragen und Selbstkontrolle – erst aus dem Kopf beantworten, dann vergleichen.
 - Wenn du nicht weiterkommst: zuerst in die `hinweise.md` schauen. Hilft das nicht, frag mich nach **einem** Hinweis (nicht nach der Lösung) – so lernst du es wirklich.
 
 Roter Faden:
@@ -52,8 +55,9 @@ Hier laufen die mitgelieferten **Beispiel-Tests** durch (grün). Deine Aufgabe: 
 
 ## Empfohlene Reihenfolge
 
-1. `modul-323-funktional/README.md` lesen → Block A bis D der Reihe nach lösen.
-2. `modul-450-testen/README.md` + `aufgaben.md` lesen → Aufgaben 1–6 der Reihe nach.
+1. **Modul 323:** `modul-323-funktional/README.md` lesen → ein paar Fragen aus `theorie.md` (Block A) → dann `aufgaben.py` Block A–D der Reihe nach lösen.
+2. **Modul 450:** `modul-450-testen/README.md` + `aufgaben.md` lesen → Theoriefragen Block 1–2 aus `theorie.md` → dann Aufgaben 1–6 der Reihe nach.
+
+Pro Modul also immer: **kurz Theorie (aus dem Kopf) → dann coden/testen → mit Tests prüfen.**
 
 Viel Erfolg – dranbleiben lohnt sich. 💪
-# M323-M450-Bungen-Vorbereitung
